@@ -23,7 +23,6 @@ img {
 }
 
 .debug .box-pink {
-    background-color: #ee82ed;
     height: 415px;
     width: 945px;
     border: 3px dashed black;
@@ -73,12 +72,24 @@ div button[type="button"] {
 }
 
 .card-template {
-    width: 20px;
+    max-width: 100%;
     height: auto;
     border-radius: 2rem;
     padding: 5px 10px;
     color: black;
     background-color: white;
+}
+
+.black {
+    display: flex;
+    color: black;
+}
+
+.top-space {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .link {
@@ -101,6 +112,17 @@ div button[type="button"] {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+
+.box-pink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.box-pink h1, span {
+    color: white;
 }
 
 .debug div.section-box:nth-child(2) {
