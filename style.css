@@ -25,21 +25,11 @@ img {
 .debug .box-pink {
     height: 415px;
     width: 945px;
-    border: 3px dashed black;
-}
-
-.debug .left-box {
-    border: 3px dashed black;
-}
-
-.debug .right-box {
-    border: 3px dashed black;
 }
 
 .logo,
 .link {
     background-color: #255EE9;
-    border: 3px dashed black;
 }
 
 .link a{
@@ -58,7 +48,6 @@ img {
 div button[type="button"] {
     all: unset;
     background-color: #255EE9;
-    border: 3px dashed black;
     cursor: pointer;
     padding: 10px 20px;
     text-align: end;
@@ -105,6 +94,13 @@ div button[type="button"] {
     padding: 20px 0 0;
 }
 
+.divider {
+    margin: auto;
+    width: 74%;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
 .blue {
     display: flex;
     align-items: center;
@@ -116,7 +112,7 @@ div button[type="button"] {
     margin-top: 20px;
 }
 
-.box-pink {
+.box-pink , .green-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,30 +124,23 @@ div button[type="button"] {
 }
 
 .debug div.section-box:nth-child(2) {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .debug div.section-box:nth-child(2) .right-box{
     order:-1;
 }
 
-.debug div.box2:first-child,
-.debug div.box2:last-child {
-    background-color: white;
-}
-
 .debug .box3 {
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .debug div.green-box {
-    background-color: #228b22;
     height: 930px;
 }
 
 .debug div.green-box {
     height: 935px;
-    border: 3px dashed black;
 }
 
 .section-box {
@@ -196,34 +185,9 @@ div button[type="button"] {
     height: 600px;
 }
 
-.debug .box-footer div.small-box{
-    background-color: #21b2aa;
-}
-
 .debug .box-footer .box4 .small-box:first-child{
-    background-color: #f08080;
     width: 595px;
-    border: 3px dashed black;
 }
-
-.debug .box4 .small-box:nth-child(2),
-.debug .box4 .small-box:nth-child(3),
-.debug .box4 .small-box:nth-child(4),
-.debug .box4 .small-box:nth-child(5) {
-    border: 3px dashed white;
-}
-
-.debug .footer {
-    background-color: #7effd4;
-}
-
-.debug .footer div.footer-logo,
-.debug .footer div.footer-bottone{
-    background-color: #ffb6c1;
-    border: 3px dashed black;
-}
-
-
 
 .box4 {
     display: flex;
@@ -237,6 +201,38 @@ div button[type="button"] {
     flex-grow: 1;
 }
 
+.fucsia {
+    color: #7288D9;
+}
+.bg-fucsia {
+    display: flex;
+    justify-content: center;
+    background-color: #7288D9;
+    color: white;
+}
+
+.ita {
+    max-width: 10px;
+    height: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+i {
+    color: white;
+    margin-right: 10px;
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-around;
+}
 .box4 .small-box:nth-child(2),
 .box4 .small-box:nth-child(3),
 .box4 .small-box:nth-child(4),
