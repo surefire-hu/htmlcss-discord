@@ -29,12 +29,10 @@ img {
 }
 
 .debug .left-box {
-    background-color: #1f90ff;
     border: 3px dashed black;
 }
 
 .debug .right-box {
-    background-color: #ffc0ca;
     border: 3px dashed black;
 }
 
@@ -112,6 +110,10 @@ div button[type="button"] {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+
+.top-p {
+    margin-top: 20px;
 }
 
 .box-pink {
