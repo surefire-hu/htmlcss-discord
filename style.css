@@ -194,7 +194,6 @@ div button[type="button"] {
     width: 1240px;
     padding: 10px 0 40px;
     margin: 0 auto;
-    justify-content: center;
 }
 
 .box4:first-child{
@@ -231,7 +230,7 @@ i {
 
 .small-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .box4 .small-box:nth-child(2),
 .box4 .small-box:nth-child(3),
