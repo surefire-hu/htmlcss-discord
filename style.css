@@ -67,6 +67,12 @@ div button[type="button"] {
     background-color: white;
 }
 
+.card-template:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
 .black {
     display: flex;
     color: black;
